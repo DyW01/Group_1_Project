@@ -13,3 +13,10 @@ installed.packages("devtools")
 library("devtools")
 
 
+
+ a <- 2
+ b <- 3
+ c <- 1000000000
+ multiply_two_numbers <- function(x,y) {
+   return(x*y)
+ }
